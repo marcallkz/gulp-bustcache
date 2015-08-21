@@ -1,0 +1,17 @@
+{
+  "name": "gulp-bustcache",
+  "version": "1.0.0",
+  "description": "Gulp Cache Buster, no query string required",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cache",
+    "cache-buster",
+    "bustcache",
+    "cache busting"
+  ],
+  "author": "Lucas Marçal",
+  "license": "MIT"
+}
