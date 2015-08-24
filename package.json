@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcallkz/gulp-bustcache.git"
+  },
   "keywords": [
     "cache",
     "cache-buster",
@@ -13,5 +17,10 @@
     "cache busting"
   ],
   "author": "Lucas Marçal",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gulp-replace": "^0.5.4",
+    "gulp-util": "^3.0.6",
+    "through2": "^2.0.0"
+  }
 }
