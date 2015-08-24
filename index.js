@@ -1,8 +1,6 @@
 var path = require('path'),
     crypt = require('crypto'),
-    gutil = require('gulp-util'),
-    through = require('through2'),
-    PluginError = gutil.PluginError;
+    through = require('through2');
 
 const PLUGIN_NAME = 'gulp-bustcache';
 
