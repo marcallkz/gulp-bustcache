@@ -6,6 +6,9 @@ const PLUGIN_NAME = 'gulp-bustcache';
 
 function gulpBustCache() {
 	return through.obj(function(file, encode, callback) {
+		if (file.isNull()) 
+			return callback(null, file);
+
 		var ext = path.extname(file.path),
 		    name = path.basename(file.path, ext),
 		    dir = path.dirname(file.path),
