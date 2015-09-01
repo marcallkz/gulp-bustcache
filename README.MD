@@ -44,8 +44,6 @@ gulp.task('js-replace', function() {
 ```
 The above code assumes a single file name (for the sake of the example) and changes a specific pattern for JS files.
 
-#### please be aware that this is not the best solution, just an idea.
-
 # LICENSE
 
 MIT
